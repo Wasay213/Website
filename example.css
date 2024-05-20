@@ -1,0 +1,68 @@
+<style>
+ 
+body {
+  margin: 0; /* Reset default margin on body element */
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+
+.flex-container > div {
+  padding: 6px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+.button {
+  background-color: #04AA6D;
+  border: none;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 15px 55px 100px; /* Adjust margin as needed */
+  cursor: pointer;
+}
+
+.button1 {width: 250px;}  
+.button2 {width: 250px;}
+.button3 {width: 250px;}
+
+.flex-container-stats {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.flex-container-stats > div {
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* Separate flex container with a different background color */
+.flex-container-alt {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin-top: 20px; /* Adjust top margin as needed */
+}
+
+.flex-container-alt > div {
+  padding: 6px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: white; /* Adjust text color for better visibility on a colored background */
+}
+.search-input {
+  margin-left: 700px;
+}
